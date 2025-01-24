@@ -1,3 +1,7 @@
+License: GPL-3
+Authors@R: person("Maja", "Zaloznik", 
+                  email = c("maja.zaloznik@gov.si", "maja.zaloznik@gmail.com"),
+                  role = c("aut", "cre"))
 Imports:
         dittodb,
         DBI,
