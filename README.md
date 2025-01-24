@@ -33,7 +33,7 @@ database access.
 
 #### GitHub Authentication
 
-This project requires access to private GitHub repositories. You will need:
+This project requires access to non-CRAN packages. You will need:
 
 1. A GitHub Personal Access Token (PAT) with appropriate permissions:
  
