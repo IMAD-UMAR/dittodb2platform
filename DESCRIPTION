@@ -1,0 +1,8 @@
+Imports:
+        dittodb,
+        DBI,
+        RPostgres,
+        remotes,
+        UMARaccessR
+Remotes:
+        majazaloznik/UMARaccessR
