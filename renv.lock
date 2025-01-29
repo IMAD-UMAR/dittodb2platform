@@ -69,7 +69,7 @@
       "RemoteUsername": "majazaloznik",
       "RemoteRepo": "UMARaccessR",
       "RemoteRef": "main",
-      "RemoteSha": "de187c0bb4a613caace173880fe01ddda438fa9b",
+      "RemoteSha": "deaf756181211de451b4195ae61c338611ef2fdb",
       "Requirements": [
         "DBI",
         "UMARimportR",
@@ -79,7 +79,7 @@
         "openxlsx",
         "rlang"
       ],
-      "Hash": "6d580b98d7a698f736b1775101762e2c"
+      "Hash": "b131f070ef4bff152ce1001ccc3ac1ce"
     },
     "UMARimportR": {
       "Package": "UMARimportR",
@@ -90,12 +90,12 @@
       "RemoteUsername": "majazaloznik",
       "RemoteRepo": "UMARimportR",
       "RemoteRef": "main",
-      "RemoteSha": "c76f8eeb15c4cad820c5e6cba81c218d5cd86dc1",
+      "RemoteSha": "0cc64a44876cbc1d900e3c539d91adbec5b9b5ed",
       "Requirements": [
         "DBI",
         "RPostgres"
       ],
-      "Hash": "8c22fced6917754a9d3ca486151b2111"
+      "Hash": "dfaff02cf3b3aa8e955119f66eaddd22"
     },
     "bit": {
       "Package": "bit",

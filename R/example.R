@@ -28,7 +28,7 @@ mock_db_call({
         #' example returning a single time series with the (internal)
         #' id = 171, the default date_valid is NULL meaning the most recent
         #' vintage was returned
-        var1 <- mock_get_data_points_from_series_id(con, 171, "var1")
+        var1 <- sql_get_data_points_from_series_id(con, 171, "var1")
 })
 
 
@@ -37,7 +37,7 @@ mock_db_call({
         con <- make_connection()
         #' example returning a single time series with the (internal)
         #' id = 172, which was not recorded
-        var2 <- mock_get_data_points_from_series_id(con, 172, "var2")
+        var2 <- sql_get_data_points_from_series_id(con, 172, "var2")
 })
 
 ## Example of multiple series retrieval
@@ -45,14 +45,14 @@ mock_db_call({
         con <- make_connection()
         #' return set of quarterly time series
         series_q <- map2(timeseries$id[1:7], timeseries$name_short_en[1:7], ~{
-                mock_get_data_points_from_series_id(
+                sql_get_data_points_from_series_id(
                         con, 
                         .x,
                         new_name = .y)}) |>
                 reduce(left_join, by = "period_id")
         #' return set of monthly time series
         series_m <- map2(timeseries$id[8:14], timeseries$name_short_en[8:14], ~{
-                mock_get_data_points_from_series_id(
+                sql_get_data_points_from_series_id(
                         con, 
                         .x,
                         new_name = .y)}) |>

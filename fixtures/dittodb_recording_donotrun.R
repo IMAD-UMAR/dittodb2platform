@@ -13,7 +13,7 @@ library(dittodb)
 library(UMARaccessR)
 library(purrr)
 source("R/helper_functions.R")
-
+con <- make_connection() 
 ## setup time series df
 ################################################################################
 series_codes <- c("SURS--0300230S--P52--GO4--N--Q",
@@ -63,7 +63,7 @@ start_db_capturing(path = "fixtures/")
 con <- make_connection() 
 
 outputs <- map(timeseries$id,  ~{
-        mock_get_data_points_from_series_id(
+        sql_get_data_points_from_series_id(
                 con, 
                 .x)}) 
 
