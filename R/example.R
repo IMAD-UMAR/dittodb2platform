@@ -44,19 +44,38 @@ mock_db_call({
 mock_db_call({
         con <- make_connection()
         #' return set of quarterly time series
-        series_q <- map2(timeseries$id[1:7], timeseries$name_short_en[1:7], ~{
-                sql_get_data_points_from_series_id(
-                        con, 
-                        .x,
-                        new_name = .y)}) |>
+        series_q <- timeseries |> 
+                dplyr::filter(grepl("[Q]$", series_codes)) |> 
+                select(id, name_short_en) |> 
+                with(map2(id, name_short_en, ~{
+                        sql_get_data_points_from_series_id(
+                                con, 
+                                .x,
+                                new_name = .y)
+                })) |>
                 reduce(left_join, by = "period_id")
+        
         #' return set of monthly time series
-        series_m <- map2(timeseries$id[8:14], timeseries$name_short_en[8:14], ~{
-                sql_get_data_points_from_series_id(
-                        con, 
-                        .x,
-                        new_name = .y)}) |>
+        series_m <- timeseries |> 
+                dplyr::filter(grepl("[M]$", series_codes)) |> 
+                select(id, name_short_en) |> 
+                with(map2(id, name_short_en, ~{
+                        sql_get_data_points_from_series_id(
+                                con, 
+                                .x,
+                                new_name = .y)
+                })) |>
                 reduce(left_join, by = "period_id")
-
+        #' return set of annual time series
+        series_a <- timeseries |> 
+                dplyr::filter(grepl("[A]$", series_codes)) |> 
+                select(id, name_short_en) |> 
+                with(map2(id, name_short_en, ~{
+                        sql_get_data_points_from_series_id(
+                                con, 
+                                .x,
+                                new_name = .y)
+                })) |>
+                reduce(left_join, by = "period_id")
 })
 

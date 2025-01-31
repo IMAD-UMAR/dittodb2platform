@@ -29,7 +29,10 @@ series_codes <- c("SURS--0300230S--P52--GO4--N--Q",
                   "SURS--0457101S--B_TO_E--29--M",
                   "SURS--2080006S--2--J--M",
                   "SURS--1700102S--2--1--M",
-                  "SURS--2012102S--2--7--M")
+                  "SURS--2012102S--2--7--M",
+                  "SURS--0325220S--D1PAY--S.1--Q",
+                  "SURS--0325220S--D1PAY--S.1M--Q",
+                  "SURS--0325202S--D--D1_XDC__Z_V--S1_W0--A")
 
 name_short_en <- c("Changes in inventories",
                    "Exports of goods and services",
@@ -44,7 +47,10 @@ name_short_en <- c("Changes in inventories",
                    "PPI",
                    "Indices of services and trade production: J Information and communication",
                    "Industrial confidence: manufacturing",
-                   "Business tendency in services: confidence indicator")
+                   "Business tendency in services: confidence indicator",
+                   "nominal national economy compensation of employee",
+                   "nominal household+NPISH compensation of employee",
+                   "nominal household+NPISH compensation of employee")
 
 
 ids <- sql_get_series_id_from_series_code(

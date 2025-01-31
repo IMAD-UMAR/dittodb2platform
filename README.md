@@ -10,7 +10,7 @@ This repo demonstrates the use of database querying functions from the `UMARacce
 package to retrieve time series data from the IMAD-UMAR *platform* database.
 
 Given that the database is only accessible on the internal institute network, we
-use `dittodb` to mock database access. A selection of 14 timeseries was made 
+use `dittodb` to mock database access. A selection of timeseries was made 
 and the database queries recorded, the outputs of which are stored in `fixtures\platform`. 
 
 Using the `mock_db_call` wrapper function the same queries can then be run
