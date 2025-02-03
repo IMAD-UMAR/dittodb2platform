@@ -19,7 +19,7 @@ timeseries <- readRDS("data/available_timeseries.rds")
 
 
 ## Example of single series retrieval
-mock_db_call({
+db_call({
         #' all the code run within this function will return query 
         #' outputs as if you were actually connected to the database
         #'  - of course under the condition that such a query was first 
@@ -32,8 +32,8 @@ mock_db_call({
 })
 
 
-## Example of unsuccessful single series retrieval
-mock_db_call({
+## Example of unsuccessful single series retrieval - won't work remotely
+db_call({
         con <- make_connection()
         #' example returning a single time series with the (internal)
         #' id = 172, which was not recorded
@@ -41,7 +41,7 @@ mock_db_call({
 })
 
 ## Example of multiple series retrieval
-mock_db_call({
+db_call({
         con <- make_connection()
         #' return set of quarterly time series
         series_q <- timeseries |> 

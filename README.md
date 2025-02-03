@@ -31,19 +31,27 @@ database access.
 1. Clone this repository
 2. Open RStudio project file `dittodb2platform.Rproj`
 
-#### GitHub Authentication
+#### GitHub Security Setup
 
-This project requires access to non-CRAN packages. You will need:
 
-1. A GitHub Personal Access Token (PAT) with appropriate permissions:
- 
-- Go to github.com and click your profile photo → Settings → Developer Settings → Personal Access Tokens
+1. Enable two-factor authentication (2FA) on your GitHub account using one of the methods 
+   described [here](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+
+2. Create a Personal Access Token (PAT):
+
+- Go to github.com → Settings → Developer Settings
 - Create new token (classic)
 - Select scopes: `repo`, `workflow`
-- Copy the generated token
+- Save the token (you'll need it in the next step)
+     
+When you run `renv::restore()` in the next section, Windows will prompt for GitHub 
+credentials:
 
-2. Store your token using Git Credential Manager (recommended) or manually in .Renviron
+- Enter your GitHub username
+- Use your PAT as the password
 
+This is a one-off steo and Git Credential Manager will securely store these credentials for future use. Do not 
+store your PAT in the `.Revniron` file.
 
 #### Set up the reproducible project environment with `renv`
 
@@ -57,7 +65,23 @@ This will install all required packages in an isolated environment including:
 - `dittodb` (for database mocking)
 - `UMARaccessR` (for database access functions)
 
-### Usage Example
+#### Environment setup based on database access
+
+Set up your environment based on your database access:
+
+1. For the CE team (using the mock database):
+```r
+file.copy(".Rprofile.CE", ".Rprofile", overwrite = TRUE)
+```
+2. For the UMAR team (direct database access):
+```r
+file.copy(".Rprofile.UMAR", ".Rprofile", overwrite = TRUE)
+file.copy(".Renviron.template", ".Renviron", overwrite = TRUE)
+```
+Then edit `.Renviron` with your database credentials. This file is not tracked by git.
+
+
+### Usage example
 
 Go to `R\example.R` and run the code. It demonstrates:
 

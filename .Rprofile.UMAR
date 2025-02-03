@@ -1,0 +1,23 @@
+source("renv/activate.R")
+
+Sys.setenv(http_proxy = "http://proxy.gov.si:80")
+Sys.setenv(http_proxy_user = "http://proxy.gov.si:80")
+Sys.setenv(https_proxy = "http://proxy.gov.si:80")
+Sys.setenv(https_proxy_user = "http://proxy.gov.si:80")
+cat("UMAR proxy enabled.")
+
+#' Execute Database Calls  
+#' 
+#' A pass-through function that matches the interface of the mocked version
+#' used by external users, but simply executes the database calls directly.
+#' This allows the same code to work seamlessly in both direct database access
+#' and mocked environments.
+#'
+#' @param expr An expression containing the database calls to be executed
+#' @param path Not used in this implementation. Included for interface compatibility
+#'             with the mocked version.
+#'
+#' @return The result of the evaluated expression, invisibly
+db_call <- function(expr, path = NULL) {
+    expr
+}
