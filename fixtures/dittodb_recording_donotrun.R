@@ -52,6 +52,14 @@ name_short_en <- c("Changes in inventories",
                    "nominal household+NPISH compensation of employee",
                    "nominal household+NPISH compensation of employee")
 
+# get list of timeseries from file
+raw_series <- openxlsx::read.xlsx("data/List indicators SIStat.xlsx")
+codes <- raw_series$Dataset.code
+codes <- gsub("\\s+", "", codes)
+names <- raw_series$Indicator
+
+series_codes <- c(series_codes, codes)
+name_short_en <- c(name_short_en, names)
 
 ids <- sql_get_series_id_from_series_code(
         series_codes, con, schema = "platform")
