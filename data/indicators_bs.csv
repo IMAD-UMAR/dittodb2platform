@@ -1,0 +1,33 @@
+﻿Block,Variable code,Indicator,Unit,Dataset code,Prefix,Table,Breakdown,Investor,Type of construction,Direction of flow,"Import/
+Export",Cohesion region,Transaction,Employment type,Cons/Ncons,Sector,Stock flow,Asset liability,Financial instrument,Age group,Sex,Consumer product,Measure,Unit2,Item,Investment,Seasonal adjustment,Indices,Activity,Statistical region,Exchange rate,NA_item,Flow,Indicators,Product,Reporter,Time frequency
+8,#N/A,Financial accounts - Fixed assets - Slovenian Economy  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.1--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.1,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Fixed assets - Non-financial corporations  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.11--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.11,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Fixed assets - Stock - Monetary financial institutions  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.121+S.122+S.123--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.121+S.122+S.123,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Fixed assets - Other financial intermediaries+Financial auxiliaries,"stock, million euro",BS--F2_Q1E--S.124+S.125+S.126+S.127--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.124+S.125+S.126+S.127,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Fixed assets - General government  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.13--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.13,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Fixed assets - Households+Non-profit institutions  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.14+S.15--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.14+S.15,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Fixed assets -Insurance corporations+Pension funds  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.128+S.129--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.128+S.129,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Fixed assets - Rest of the world  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.2--0--0--Q,BS,F2_Q1E,,,,,,,,,,S.2,0,0,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Net - Slovenian Economy  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.1--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.1,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts -Net -  Non-financial corporations  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.11--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.11,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Net -  Stock - Monetary financial institutions  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.121+S.122+S.123--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.121+S.122+S.123,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Net -  Other financial intermediaries+Financial auxiliaries  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.124+S.125+S.126+S.127--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.124+S.125+S.126+S.127,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Net - General government  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.13--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.13,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts -Net -  Households+Non-profit institutions  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.14+S.15--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.14+S.15,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Net - Insurance corporations+Pension funds  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.128+S.129--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.128+S.129,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Net -  Rest of the world  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.2--0--1--Q,BS,F2_Q1E,,,,,,,,,,S.2,0,1,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Liabilities - Slovenian Economy  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.1--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.1,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts -Liabilities -  Non-financial corporations  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.11--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.11,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Liabilities -  Stock - Monetary financial institutions  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.121+S.122+S.123--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.121+S.122+S.123,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Liabilities -  Other financial intermediaries+Financial auxiliaries  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.124+S.125+S.126+S.127--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.124+S.125+S.126+S.127,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Liabilities - General government  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.13--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.13,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts -Liabilities -  Households+Non-profit institutions  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.14+S.15--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.14+S.15,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Liabilities - Insurance corporations+Pension funds  (all financial instruments),"stock, million euro",BS--F2_Q1E--S.128+S.129--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.128+S.129,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Financial accounts - Liabilities -  Rest of the world (all financial instruments),"stock, million euro",BS--F2_Q1E--S.2--0--2--Q,BS,F2_Q1E,,,,,,,,,,S.2,0,2,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Bank of Slovenia Exchange Rates - Average Rates - SIT to USD,number,BS--I2_10_AE--3--M,BS,I2_10_AE,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,M
+8,#N/A,Bank of Slovenia Exchange Rates - Average Rates - SIT to EUR,number,BS--I2_10_AE--1--M,BS,I2_10_AE,,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,M
+8,WEALTH_NPISH,Financial net worth - Cons - Net - NPISH,number,BS--F2_Q2E--1--0--1--BF90--S.15--Q,BS,F2_Q2E,,,,,,,,,,1,0,1,BF90,,,,,,S.15,,,,,,,,,,,,Q
+8,WEALTH_HH,Financial net worth - Cons - Net - Households,number,BS--F2_Q2E--1--0--1--BF90--S.14+S.15--Q,BS,F2_Q2E,,,,,,,,,,1,0,1,BF90,,,,,,S.14+S.15,,,,,,,,,,,,Q
+8,#N/A,"Goods and Services by Countries BPM6 (all countries, all items)",million euro,BS--t3_bsdqe--0--Q,BS,t3_bsdqe,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,"Balance of Payments by Countries BPM6 (all countries, all items)",million euro,BS--bop_coue--0--Q,BS,bop_coue,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q
+8,#N/A,Balance of Payments BPM6 (all items),million euro,BS--i_32_6qe--Q,BS,i_32_6qe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q

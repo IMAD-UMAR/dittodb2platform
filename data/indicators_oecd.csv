@@ -1,0 +1,2 @@
+﻿Variable code,Description,Link,Query code
+P_BRENT,"US dollars per brent barrel, Current prices",OECD Data Explorer • Economic Outlook 116,"https://sdmx.oecd.org/public/rest/data/OECD.ECO.MAD,DSD_EO@DF_EO,1.2/W.WPBRENT+GDPV_ANNPCT.Q?startPeriod=1960-Q1&dimensionAtObservation=AllDimensions"
