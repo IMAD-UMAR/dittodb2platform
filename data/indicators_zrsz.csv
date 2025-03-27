@@ -1,0 +1,4 @@
+﻿Block,Variable code,Indicator,Unit,Dataset code,Prefix,Table,Breakdown,Investor,Type of construction,Direction of flow,"Import/
+Export",Cohesion region,Transaction,Employment type,Cons/Ncons,Sector,Stock flow,Asset liability,Financial instrument,Age group,Sex,Consumer product,Measure,Unit2,Item,Investment,Seasonal adjustment,Indices,Activity,Statistical region,Exchange rate,NA_item,Flow,Indicators,Product,Reporter,Time frequency
+4,L_UNEMP,Registered unemployment  - ESS,number of persons,ZRSZ--BO_OS--0--M,ZRSZ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M
+4,L_UNEMP_R,Registered unemployment rate - ESS,percentage,ZRSZ--BO--0--M,ZRSZ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M

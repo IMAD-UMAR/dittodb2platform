@@ -12,11 +12,12 @@
 library(dittodb)
 library(UMARaccessR)
 library(purrr)
+library(dplyr)
 source("R/helper_functions.R")
 con <- make_connection() 
 ## setup time series df
 ################################################################################
-series_codes <- c("SURS--0300230S--P52--GO4--N--Q",
+Dataset.code <- c("SURS--0300230S--P52--GO4--N--Q",
                   "SURS--0300230S--P6--L--Y--Q",
                   "SURS--0300230S--B1GQ--L--Y--Q",
                   "SURS--0300230S--P51G--L--Y--Q",
@@ -32,9 +33,11 @@ series_codes <- c("SURS--0300230S--P52--GO4--N--Q",
                   "SURS--2012102S--2--7--M",
                   "SURS--0325220S--D1PAY--S.1--Q",
                   "SURS--0325220S--D1PAY--S.1M--Q",
-                  "SURS--0325202S--D--D1_XDC__Z_V--S1_W0--A")
+                  "SURS--0325202S--D--D1_XDC__Z_V--S1_W0--A",
+                  "ZRSZ--BO_OS--0--M",
+                  "ZRSZ--BO--0--M")
 
-name_short_en <- c("Changes in inventories",
+Indicator <- c("Changes in inventories",
                    "Exports of goods and services",
                    "Real GDP",
                    "Gross fixed capital formation",
@@ -50,24 +53,24 @@ name_short_en <- c("Changes in inventories",
                    "Business tendency in services: confidence indicator",
                    "nominal national economy compensation of employee",
                    "nominal household+NPISH compensation of employee",
-                   "nominal household+NPISH compensation of employee")
+                   "nominal household+NPISH compensation of employee",
+                   "Registered unemployment rate",
+                   "Registered unemployment level")
+timeseries <- data.frame(Dataset.code, Indicator)
 
-# get list of timeseries from file
-raw_series <- openxlsx::read.xlsx("data/List indicators SIStat.xlsx")
-codes <- raw_series$Dataset.code
-codes <- gsub("\\s+", "", codes)
-names <- raw_series$Indicator
-
-series_codes <- c(series_codes, codes)
-name_short_en <- c(name_short_en, names)
+# get list of timeseries from files
+sistat_series <- read.csv("data/indicators_sistat.csv", stringsAsFactors = FALSE)
+# bs_series <- read.csv("data/indicators_bs.csv", stringsAsFactors = FALSE)
+timeseries <- bind_rows(timeseries,
+                       sistat_series)
 
 ids <- sql_get_series_id_from_series_code(
-        series_codes, con, schema = "platform")
-
+        timeseries$Dataset.code, con, schema = "platform")
 name_long_si <- sql_get_series_name_from_series(con, ids$id, schema = "platform")
 
-timeseries <- data.frame(ids, series_codes, name_short_en, name_long_si)
-
+timeseries$id <- ids$id
+timeseries$name_long_si <- name_long_si
+timeseries <- relocate(timeseries, c("id", "name_long_si"), after = "Indicator")
 saveRDS(timeseries, "data/available_timeseries.rds")
 
 

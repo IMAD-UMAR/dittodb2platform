@@ -48,7 +48,7 @@ structure(list(period_id = c("2000M01", "2000M02", "2000M03",
 "2023M04", "2023M05", "2023M06", "2023M07", "2023M08", "2023M09", 
 "2023M10", "2023M11", "2023M12", "2024M01", "2024M02", "2024M03", 
 "2024M04", "2024M05", "2024M06", "2024M07", "2024M08", "2024M09", 
-"2024M10", "2024M11", "2024M12"), value = c(0x1.a9851eb851eb8p+5, 
+"2024M10", "2024M11", "2024M12", "2025M01", "2025M02"), value = c(0x1.a9851eb851eb8p+5, 
 0x1.ad1eb851eb852p+5, 0x1.b051eb851eb85p+5, 0x1.b451eb851eb85p+5, 
 0x1.b68f5c28f5c29p+5, 0x1.b9ae147ae147bp+5, 0x1.bcccccccccccdp+5, 
 0x1.c147ae147ae14p+5, 0x1.c4147ae147ae1p+5, 0x1.c666666666666p+5, 
@@ -145,5 +145,6 @@ structure(list(period_id = c("2000M01", "2000M02", "2000M03",
 0x1.f8a3d70a3d70ap+6, 0x1.ffeb851eb851fp+6, 0x1.f828f5c28f5c3p+6, 
 0x1.01fae147ae148p+7, 0x1.04a8f5c28f5c3p+7, 0x1.09d70a3d70a3dp+7, 
 0x1.0f51eb851eb85p+7, 0x1.0fa3d70a3d70ap+7, 0x1.0ac28f5c28f5cp+7, 
-0x1.07570a3d70a3dp+7, 0x1.056b851eb851fp+7, 0x1.03bd70a3d70a4p+7
-)), class = "data.frame", row.names = c(NA, -300L))
+0x1.07570a3d70a3dp+7, 0x1.056b851eb851fp+7, 0x1.03bd70a3d70a4p+7, 
+0x1.0423d70a3d70ap+7, 0x1.081eb851eb852p+7)), class = "data.frame", row.names = c(NA, 
+-302L))

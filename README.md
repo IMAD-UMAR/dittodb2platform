@@ -80,7 +80,6 @@ file.copy(".Renviron.template", ".Renviron", overwrite = TRUE)
 ```
 Then edit `.Renviron` with your database credentials. This file is not tracked by git.
 
-
 ### Usage example
 
 Go to `R\example.R` and run the code. It demonstrates:
