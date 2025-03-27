@@ -69,8 +69,8 @@ ids <- sql_get_series_id_from_series_code(
 name_long_si <- sql_get_series_name_from_series(con, ids$id, schema = "platform")
 
 timeseries$id <- ids$id
-timeseries$name_long_si <- name_long_si
-timeseries <- relocate(timeseries, c("id", "name_long_si"), after = "Indicator")
+timeseries$name_long_si <- name_long_si$name_long
+timeseries <- relocate(timeseries, c("id", "name_long_si"), .after = "Indicator")
 saveRDS(timeseries, "data/available_timeseries.rds")
 
 
