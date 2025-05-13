@@ -60,9 +60,11 @@ timeseries <- data.frame(Dataset.code, Indicator)
 
 # get list of timeseries from files
 sistat_series <- read.csv("data/indicators_sistat.csv", stringsAsFactors = FALSE)
-# bs_series <- read.csv("data/indicators_bs.csv", stringsAsFactors = FALSE)
+bs_series <- read.csv("data/indicators_bs.csv", stringsAsFactors = FALSE) |> 
+        mutate(Sector = as.character(Sector))
 timeseries <- bind_rows(timeseries,
-                       sistat_series)
+                       sistat_series,
+                       bs_series)
 
 ids <- sql_get_series_id_from_series_code(
         timeseries$Dataset.code, con, schema = "platform")

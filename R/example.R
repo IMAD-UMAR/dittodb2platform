@@ -17,7 +17,6 @@ timeseries <- readRDS("data/available_timeseries.rds")
 ## (the fixtures are saved in the folder fixtures/
 ################################################################################
 
-
 ## Example of single series retrieval
 db_call({
         #' all the code run within this function will return query 
@@ -28,7 +27,7 @@ db_call({
         #' example returning a single time series with the (internal)
         #' id = 171, the default date_valid is NULL meaning the most recent
         #' vintage was returned
-        var1 <- sql_get_data_points_from_series_id(con, 171, "var1")
+        var1 <- sql_get_data_points_from_series_id(con, 56395, "var1")
 })
 
 
