@@ -13,7 +13,7 @@ structure(list(period_id = c("1999Q1", "1999Q2", "1999Q3", "1999Q4",
 "2019Q2", "2019Q3", "2019Q4", "2020Q1", "2020Q2", "2020Q3", "2020Q4", 
 "2021Q1", "2021Q2", "2021Q3", "2021Q4", "2022Q1", "2022Q2", "2022Q3", 
 "2022Q4", "2023Q1", "2023Q2", "2023Q3", "2023Q4", "2024Q1", "2024Q2", 
-"2024Q3"), value = c(0x1.ace789e774eecp-4, 0x1.4f9db22d0e56p-3, 
+"2024Q3", "2024Q4"), value = c(0x1.ace789e774eecp-4, 0x1.4f9db22d0e56p-3, 
 0x1.46ac215b9a5a9p-2, 0x1.fac6045baf534p-3, 0x1.846f9b994e1a4p-4, 
 0x1.2ff3ade225fa6p-3, 0x1.45186db50f40ep-3, 0x1.c736049ecb31cp-3, 
 0x1.3f2170931012ap-1, 0x1.55d80e496edeep-1, 0x1.16494d50ebaaep-1, 
@@ -46,6 +46,6 @@ structure(list(period_id = c("1999Q1", "1999Q2", "1999Q3", "1999Q4",
 0x1.14d983947496bp-2, 0x1.31ca7d6733ebcp-2, 0x1.4a8c9b845564bp-2, 
 0x1.747f13059641fp-2, 0x1.c117720c8cd64p-2, 0x1.d209edbf8b9bbp-2, 
 0x1.0fdbd2fa0d77bp-1, 0x1.4de2ac322292p-2, 0x1.6cd423d9231c6p-2, 
-0x1.7b662fdfc19c1p-2, 0x1.910d7be9856a3p-2, 0x1.6ae31d712a0ecp-2, 
-0x1.478d92fb19e73p-2, 0x1.56c54bcf0b6b7p-2)), class = "data.frame", row.names = c(NA, 
--103L))
+0x1.7b662fdfc19c1p-2, 0x1.910d7be9856a3p-2, 0x1.1b384fd2a62aap-3, 
+0x1.1eccc46950fc7p-3, 0x1.34488c60cbf2bp-3, 0x1.e2b3461309c8p-1
+)), class = "data.frame", row.names = c(NA, -104L))

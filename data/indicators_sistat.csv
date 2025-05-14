@@ -1,6 +1,5 @@
 Block,Variable code,Indicator,Unit,Dataset code,Prefix,Table,Breakdown,Investor,Type of construction,Direction of flow,"Import/
 Export",Cohesion region,Transaction,Employment type,Cons/Ncons,Sector,Stock flow,Asset liability,Financial instrument,Age group,Sex,Consumer product,Measure,Unit2,Item,Investment,Seasonal adjustment,Indices,Activity,Statistical region,Exchange rate,NA_item,Flow,Indicators,Product,Reporter,Time frequency
-1,CV_HHNDI,Household + NPISH disposable income,"current prices, million euro",SURS--0325220S--B6G--S.1M--Q,SURS,0325220S,,,,,,,B6G,,,S.1M,,,,,,,,,,,,,,,,,,,,,Q
 1,CV_DI,National Economy disposable income ,"current prices, million euro",SURS--0325220S--B6G--S.1--Q,SURS,0325220S,,,,,,,B6G,,,S.1,,,,,,,,,,,,,,,,,,,,,Q
 1,CV_HHNDI_A,Household + NPISH disposable income,"current prices, million euro",SURS--0325202S--B--B6G_W0_XDC__Z_V--S1M_W0--A,SURS,0325202S,,,,B,,,B6G_W0_XDC__Z_V,,,S1M_W0,,,,,,,,,,,,,,,,,,,,,A
 1,CV_HHDI_A,Household disposable income,"current prices, million euro",SURS--0325202S--B--B6G_W0_XDC__Z_V--S14_W0--A,SURS,0325202S,,,,B,,,B6G_W0_XDC__Z_V,,,S14_W0,,,,,,,,,,,,,,,,,,,,,A
@@ -113,32 +112,63 @@ Export",Cohesion region,Transaction,Employment type,Cons/Ncons,Sector,Stock flow
 7,GV_B9,Net lending /net borrowing ,"current prices, million euro",SURS--0314984S--B9--Q,SURS,0314984S,,,,,,,B9,,,,,,,,,,,,,,,,,,,,,,,,Q
 7,G_TE,Government expenditure,"contant prices, 2010 euro",SURS--0300230S--P3_S13--L--Y--Q,SURS,0300230S,,,,,,,P3_S13,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 7,,Government expenditure,"current prices, million euro",SURS--0300230S--P3_S13--V--Y--Q,SURS,0300230S,,,,,,,P3_S13,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
-7,#N/A,Government Debt at the end of quarter,"current prices, million euro",SURS--0314983S--GD--XDC--Y--Q,SURS,0314983S,,,,,,,GD,,,,,,,,,,XDC,,,,Y,,,,,,,,,,Q
 8,KV,Gross fixed capital formation: National economy,"current prices, million euro",SURS--0325220S--P51GPAY--S.1--Q,SURS,0325220S,,,,,,,P51GPAY,,,S.1,,,,,,,,,,,,,,,,,,,,,Q
-8,#N/A,Gross fixed capital formation: Non-financial corporations,"current prices, million euro",SURS--0325220S--P51GPAY--S.11--Q,SURS,0325220S,,,,,,,P51GPAY,,,S.11,,,,,,,,,,,,,,,,,,,,,Q
-8,#N/A,Gross fixed capital formation: Financial corporations,"current prices, million euro",SURS--0325220S--P51GPAY--S.12--Q,SURS,0325220S,,,,,,,P51GPAY,,,S.12,,,,,,,,,,,,,,,,,,,,,Q
 8,KV_GOV,Gross fixed capital formation: General government,"current prices, million euro",SURS--0325220S--P51GPAY--S.13--Q,SURS,0325220S,,,,,,,P51GPAY,,,S.13,,,,,,,,,,,,,,,,,,,,,Q
-8,#N/A,Gross fixed capital formation: Households+NPISH,"current prices, million euro",SURS--0325220S--P51GPAY--S.1M--Q,SURS,0325220S,,,,,,,P51GPAY,,,S.1M,,,,,,,,,,,,,,,,,,,,,Q
 8,KV_INVENTORY,Changes in inventories + acquisitions less disposals of valuables,"current prices, million euro",SURS--0325220S--P52PAY+P53PAY--S.1--Q,SURS,0325220S,,,,,,,P52PAY+P53PAY,,,S.1,,,,,,,,,,,,,,,,,,,,,Q
 8,#N/A,Gross fixed capital formation,,SURS--0314984S--P51G--Q,SURS,0314984S,,,,,,,P51G,,,,,,,,,,,,,,,,,,,,,,,,Q
 8,#N/A,Gross fixed capital formation: General government,"current prices, million euro",SURS--0314983S--P51G--XDC--Y--Q,SURS,0314983S,,,,,,,P51G,,,,,,,,,,XDC,,,,Y,,,,,,,,,,Q
 8,KV_TOTAL,Gross fixed capital formation,"current prices, million euro",SURS--0300230S--P51G--V--Y--Q,SURS,0300230S,,,,,,,P51G,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
-8,#N/A,Gross fixed capital formation: Buildings and structures,"current prices, million euro",SURS--0300230S--P51G_N11KG--V--Y--Q,SURS,0300230S,,,,,,,P51G_N11KG,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 8,KV_BUILD1,Gross fixed capital formation: Residential buildings,"current prices, million euro",SURS--0300230S--P51G_N111G--V--Y--Q,SURS,0300230S,,,,,,,P51G_N111G,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 8,KV_BUILD2,Gross fixed capital formation: Other buildings and structures,"current prices, million euro",SURS--0300230S--P51G_N112G--V--Y--Q,SURS,0300230S,,,,,,,P51G_N112G,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 8,KV_EM,Gross fixed capital formation: Machinery and equipment,"current prices, million euro",SURS--0300230S--P51G_N11MG--V--Y--Q,SURS,0300230S,,,,,,,P51G_N11MG,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 8,KV_AGRI,Gross fixed capital formation: Products of agriculture,"current prices, million euro",SURS--0300230S--P51G_N115G--V--Y--Q,SURS,0300230S,,,,,,,P51G_N115G,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 8,KV_IP,Gross fixed capital formation: Intellectual property products,"current prices, million euro",SURS--0300230S--P51G_N117G--V--Y--Q,SURS,0300230S,,,,,,,P51G_N117G,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 8,K_TOTAL,Gross fixed capital formation,"contant prices, 2010 euro",SURS--0300230S--P51G--L--Y--Q,SURS,0300230S,,,,,,,P51G,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
-8,#N/A,Gross fixed capital formation: Buildings and structures,"contant prices, 2010 euro",SURS--0300230S--P51G_N11KG--L--Y--Q,SURS,0300230S,,,,,,,P51G_N11KG,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 8,K_BUILD1,Gross fixed capital formation: Residential buildings,"contant prices, 2010 euro",SURS--0300230S--P51G_N111G--L--Y--Q,SURS,0300230S,,,,,,,P51G_N111G,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 8,K_BUILD2,Gross fixed capital formation: Other buildings and structures,"contant prices, 2010 euro",SURS--0300230S--P51G_N112G--L--Y--Q,SURS,0300230S,,,,,,,P51G_N112G,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 8,K_EM,Gross fixed capital formation: Machinery and equipment,"contant prices, 2010 euro",SURS--0300230S--P51G_N11MG--L--Y--Q,SURS,0300230S,,,,,,,P51G_N11MG,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 8,K_AGRI,Gross fixed capital formation: Products of agriculture,"contant prices, 2010 euro",SURS--0300230S--P51G_N115G--L--Y--Q,SURS,0300230S,,,,,,,P51G_N115G,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 8,K_IP,Gross fixed capital formation: Intellectual property products,"contant prices, 2010 euro",SURS--0300230S--P51G_N117G--L--Y--Q,SURS,0300230S,,,,,,,P51G_N117G,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 8,KV_INVENTORY,Changes in inventories,"current prices, million euro",SURS--0300230S--P52--V--Y--Q,SURS,0300230S,,,,,,,P52,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
-8,#N/A,Changes in inventories,"contant prices, 2010 euro",SURS--0300230S--P52--L--Y--Q,SURS,0300230S,,,,,,,P52,,,,,,,,,,L,,,,Y,,,,,,,,,,Q
 8,INTEREST_M,"Base interest rate, Slovenia, monthly",percentage,SURS--H287S--1--M,SURS,H287S,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,M
 8,INTEREST_A,"Base interest rate, Slovenia, annual",percentage,SURS--H287S--2--M,SURS,H287S,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,M
 9,X_SERV,Exports of services,"Constant prices, reference year 2010 (mio EUR)",SURS--0300230S--P62--V--Y--Q,SURS,0300230S,,,,,,,P62,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 9,X_GDS,Exports of goods,"Constant prices, reference year 2010 (mio EUR)",SURS--0300230S--P61--V--Y--Q,SURS,0300230S,,,,,,,P61,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
+G,GV_D21REC,General government: taxes on products,"current prices, million euro",SURS--0314984S--D21_C--Q,SURS,0314984S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+G,GV_D29REC,General government: taxes on production,"current prices, million euro",SURS--0314984S--D29_C--Q,SURS,0314984S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Y,YV_C,Final consumption expenditure HH+NPISH (National accounts),"current prices, million euro",SURS--0300230S--P31_S1M--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Y,YV_G,Final consumption expenditure of general government (National accounts),"current prices, million euro",SURS--0300230S--P3_S13--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Y,YV_K,Gross Fixed Capital Formation (National accounts),"current prices, million euro",SURS--0300230S--P51G--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Y,YV_X,Exports (National accounts),"current prices, million euro",SURS--0300230S--P6--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Y,YV_M,Imports (National accounts),"current prices, million euro",SURS--0300230S--P7--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M,MV,Imports,"Current prices (mio EUR), Seasonally adjusted data",SURS--0300230S--P7--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M,MV_GDS,Imports of goods,"Current prices (mio EUR), Seasonally adjusted data",SURS--0300230S--P71--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M,MV_SERV,Imports of services,"Current prices (mio EUR), Seasonally adjusted data",SURS--0300230S--P72--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M,M,Imports,"Constant prices, reference year 2010 (mio EUR), Seasonally adjusted data",SURS--0300230S--P7--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M,M_GDS,Imports of goods,"Constant prices, reference year 2010 (mio EUR), Seasonally adjusted data",SURS--0300230S--P71--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M,M_SERV,Imports of services,"Constant prices, reference year 2010 (mio EUR), Seasonally adjusted data",SURS--0300230S--P72--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P,P_M_IND,"Import price index, industry (except construction)",Month / average of the year 2021,SURS--0425002S--B_TO_E--29--M,SURS,0425002S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_EMP_1524,Employment: aged 15-24,thousands person,SURS--0762003S--0--1--0--1110--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_EMP_2549,Employment: aged 25-49,thousands person,SURS--0762003S--0--3--0--1110--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_EMP_5064,Employment: aged 50-64,thousands person,SURS--0762003S--0--4--0--1110--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_EMP_65,Employment: aged 65+,thousands person,SURS--0762003S--0--5--0--1110--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_1524,Labour force: aged 15-24,thousands person,SURS--0762003S--0--1--0--1100--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_2549,Labour force: aged 25-49,thousands person,SURS--0762003S--0--3--0--1100--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_5064,Labour force: aged 50-64,thousands person,SURS--0762003S--0--4--0--1100--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_65,Labour force: aged 65+,thousands person,SURS--0762003S--0--5--0--1100--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_LFPR,Activity rate: aged 15+,percentage,SURS--0762003S--0--0--0--2000--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_LFPR_1524,Activity rate: aged 15-24,percentage,SURS--0762003S--0--1--0--2000--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_LFPR_2549,Activity rate: aged 25-49,percentage,SURS--0762003S--0--3--0--2000--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_LFPR_5064,Activity rate: aged 50-64,percentage,SURS--0762003S--0--4--0--2000--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_LFPR_65,Activity rate: aged 65+,percentage,SURS--0762003S--0--5--0--2000--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF,Labour force: aged 15+,thousands person,SURS--0762003S--0--0--0--1100--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_EMP,Employment: aged 15+,thousands person,SURS--0762003S--0--0--0--1110--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_UNEMP,Unemployment (Labour force),thousands person,SURS--0762003S--0--0--0--1120--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,L_HWK,Actual hours worked per week,hours,SURS--0762010S--0--0--2--Q,SURS,0762010S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LF_WAP,Working age population,thousands person,SURS--0762001S--0--1000--0--Q,SURS,0762001S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGW,Average gross wage (gross wage per employed worker),"current price, euro",SURS--0701015S--TOT--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGP,Average gross wage (gross wage per employed worker)- private sector,"current price, euro",SURS--0701015S--1--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGG,Average gross wage (gross wage per employed worker) - public sector ,"current price, euro",SURS--0701015S--2--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P,P_CPI,Consumer price indices,rebased to 2010,SURS--0400600S--0--50--M,SURS,0400600S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P,P_PPI,Producer price index,rebased to 2010,SURS--0457101S--B_TO_E--11--M,SURS,0457101S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LV_COMP_GOV,Compensation of employees: public sector,"current price, million euro",SURS--0325220S--D1PAY--S.13--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

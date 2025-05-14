@@ -44,9 +44,9 @@ db_call({
         con <- make_connection()
         #' return set of quarterly time series
         series_q <- timeseries |> 
-                dplyr::filter(grepl("[Q]$", series_codes)) |> 
-                select(id, name_short_en) |> 
-                with(map2(id, name_short_en, ~{
+                dplyr::filter(grepl("[Q]$", Dataset.code)) |> 
+                select(id, Indicator) |> 
+                with(map2(id, Indicator, ~{
                         sql_get_data_points_from_series_id(
                                 con, 
                                 .x,
@@ -56,9 +56,9 @@ db_call({
         
         #' return set of monthly time series
         series_m <- timeseries |> 
-                dplyr::filter(grepl("[M]$", series_codes)) |> 
-                select(id, name_short_en) |> 
-                with(map2(id, name_short_en, ~{
+                dplyr::filter(grepl("[M]$", Dataset.code)) |> 
+                select(id, Indicator) |> 
+                with(map2(id, Indicator, ~{
                         sql_get_data_points_from_series_id(
                                 con, 
                                 .x,
@@ -67,9 +67,9 @@ db_call({
                 reduce(left_join, by = "period_id")
         #' return set of annual time series
         series_a <- timeseries |> 
-                dplyr::filter(grepl("[A]$", series_codes)) |> 
-                select(id, name_short_en) |> 
-                with(map2(id, name_short_en, ~{
+                dplyr::filter(grepl("[A]$", Dataset.code)) |> 
+                select(id, Indicator) |> 
+                with(map2(id, Indicator, ~{
                         sql_get_data_points_from_series_id(
                                 con, 
                                 .x,
