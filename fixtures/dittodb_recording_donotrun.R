@@ -25,10 +25,12 @@ bs_series <- read.csv("data/indicators_bs.csv", stringsAsFactors = FALSE) |>
                Block = as.character(Block))
 zrsz_series <- read.csv("data/indicators_zrsz.csv", stringsAsFactors = FALSE) |> 
         mutate(Block = as.character(Block))
+eurostat_series <- read.csv("data/indicators_eurostat.csv", stringsAsFactors = FALSE)
 timeseries <- bind_rows(
                        sistat_series,
                        bs_series,
-                       zrsz_series)
+                       zrsz_series,
+                       eurostat_series)
 
 ids <- sql_get_series_id_from_series_code(
         timeseries$Dataset.code, con, schema = "platform")
