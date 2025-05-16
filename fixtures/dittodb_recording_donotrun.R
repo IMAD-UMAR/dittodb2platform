@@ -26,11 +26,13 @@ bs_series <- read.csv("data/indicators_bs.csv", stringsAsFactors = FALSE) |>
 zrsz_series <- read.csv("data/indicators_zrsz.csv", stringsAsFactors = FALSE) |> 
         mutate(Block = as.character(Block))
 eurostat_series <- read.csv("data/indicators_eurostat.csv", stringsAsFactors = FALSE)
+oecd_series <- read.csv("data/indicators_oecd.csv")
 timeseries <- bind_rows(
                        sistat_series,
                        bs_series,
                        zrsz_series,
-                       eurostat_series)
+                       eurostat_series,
+                       oecd_series)
 
 ids <- sql_get_series_id_from_series_code(
         timeseries$Dataset.code, con, schema = "platform")
@@ -41,7 +43,8 @@ timeseries$name_long_si <- name_long_si$name_long
 timeseries <- relocate(timeseries, c("id", "name_long_si"), .after = "Indicator")
 saveRDS(timeseries, "data/available_timeseries.rds")
 
-
+# clean up old fixtures
+files <- list.files("fixtures/platform", pattern = NULL, full.names = TRUE)
 ## capture mocks 
 ################################################################################
 start_db_capturing(path = "fixtures/")
