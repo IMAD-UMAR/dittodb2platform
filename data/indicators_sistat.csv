@@ -71,9 +71,8 @@ Export",Cohesion region,Transaction,Employment type,Cons/Ncons,Sector,Stock flow
 5,CPI,Consumer price index,"index, 2015=100",SURS--0400600S--0--50--M,SURS,0400600S,,,,,,,,,,,,,,,,0,50,,,,,,,,,,,,,,M
 5,HICPTAX,Harmonised index of consumer prices at constant tax rates,"index, 2015=100",SURS--0400607S--0--50--M,SURS,0400607S,,,,,,,,,,,,,,,,0,50,,,,,,,,,,,,,,M
 5,HICP,Harmonised index of consumer prices,"index, 2015=100",SURS--0400606S--0--50--M,SURS,0400606S,,,,,,,,,,,,,,,,0,50,,,,,,,,,,,,,,M
-5,HICP_FUEL,"Harmonised index of consumer prices: Electricity, gas and other fuels","index, 2015=100",SURS--0400606S--045--50--M,SURS,0400606S,,,,,,,,,,,,,,,,045,50,,,,,,,,,,,,,,M
+5,HICP_FUEL,"Harmonised index of consumer prices: Electricity, gas and other fuels","index, 2015=100",SURS--0400606S--045--50--M,SURS,0400606S,,,,,,,,,,,,,,,,45,50,,,,,,,,,,,,,,M
 6,,"Labour cost index, seasonally adjusted","index, 2020=100",SURS--0715101S--SA--0--TOT--Q,SURS,0715101S,,,,,,,,,,,,,,,,,,,,,SA,0,TOT,,,,,,,,Q
-6,ULC,"Labour cost index, working day adjusted","index, 2020=100",SURS--0715101S--YCAL--0--TOT--Q,SURS,0715101S,,,,,,,,,,,,,,,,,,,,,YCAL,0,TOT,,,,,,,,Q
 6,HOUSE_P,House price index,"index, 2015=100",SURS--0419001S--1--4--Q,SURS,0419001S,,,1,,,,,,,,,,,,,,4,,,,,,,,,,,,,,Q
 6,HOUSE_SALE,Residential housing transactions,number,SURS--0419030S--1--1--Q,SURS,0419030S,,,1,,,,,,,,,,,,,,1,,,,,,,,,,,,,,Q
 6,HOUSE_SALE_VALUE,Residential housing transactions value,"current prices, euro",SURS--0419030S--1--2--Q,SURS,0419030S,,,1,,,,,,,,,,,,,,2,,,,,,,,,,,,,,Q
@@ -166,9 +165,17 @@ L,LF_EMP,Employment: aged 15+,thousands person,SURS--0762003S--0--0--0--1110--Q,
 L,LF_UNEMP,Unemployment (Labour force),thousands person,SURS--0762003S--0--0--0--1120--Q,SURS,0762003S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 L,L_HWK,Actual hours worked per week,hours,SURS--0762010S--0--0--2--Q,SURS,0762010S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 L,LF_WAP,Working age population,thousands person,SURS--0762001S--0--1000--0--Q,SURS,0762001S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-W,WV_AGW,Average gross wage (gross wage per employed worker),"current price, euro",SURS--0701015S--TOT--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-W,WV_AGP,Average gross wage (gross wage per employed worker)- private sector,"current price, euro",SURS--0701015S--1--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-W,WV_AGG,Average gross wage (gross wage per employed worker) - public sector ,"current price, euro",SURS--0701015S--2--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGW_2023,Average gross wage (gross wage per employed worker),"current price, euro",SURS--0701015S--TOT--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGP_2023,Average gross wage (gross wage per employed worker)- private sector,"current price, euro",SURS--0701015S--1--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGG_2023,Average gross wage (gross wage per employed worker) - public sector ,"current price, euro",SURS--0701015S--2--1--1--M,SURS,0701015S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGW_2014,Average gross wage (gross wage per employed worker) 2014 - 2024Q3,"current price, euro",SURS--0701054S--TOT--1--1--M,SURS,0701054S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGP_2014,Average gross wage (gross wage per employed worker)- private sector 2014 - 2024Q3,"current price, euro",SURS--0701054S--1--1--1--M,SURS,0701054S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGG_2014,Average gross wage (gross wage per employed worker) - public sector 2014 - 2024Q3,"current price, euro",SURS--0701054S--2--1--1--M,SURS,0701054S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGW_2005,Average gross wage (gross wage per employed worker) 2005 - 2015Q3,"current price, euro",SURS--0701087S--TOT--1--1--M,SURS,0701087S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGP_2005,Average gross wage (gross wage per employed worker)- private sector 2005 - 2015Q3,"current price, euro",SURS--0701087S--1--1--1--M,SURS,0701087S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+W,WV_AGG_2005,Average gross wage (gross wage per employed worker) - public sector 2005- 2015Q3,"current price, euro",SURS--0701087S--2--1--1--M,SURS,0701087S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 P,P_CPI,Consumer price indices,rebased to 2010,SURS--0400600S--0--50--M,SURS,0400600S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 P,P_PPI,Producer price index,rebased to 2010,SURS--0457101S--B_TO_E--11--M,SURS,0457101S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 L,LV_COMP_GOV,Compensation of employees: public sector,"current price, million euro",SURS--0325220S--D1PAY--S.13--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Y_X,Exports (National accounts),"constant prices, 2010 euro",SURS--0300230S--P6--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LV_COMP_EMP,Compensation of employees,"current price, million EUR",SURS--0325220S--D1PAY--S.1--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
