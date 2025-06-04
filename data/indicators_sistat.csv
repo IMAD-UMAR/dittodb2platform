@@ -178,4 +178,4 @@ P,P_CPI,Consumer price indices,rebased to 2010,SURS--0400600S--0--50--M,SURS,040
 P,P_PPI,Producer price index,rebased to 2010,SURS--0457101S--B_TO_E--11--M,SURS,0457101S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 L,LV_COMP_GOV,Compensation of employees: public sector,"current price, million euro",SURS--0325220S--D1PAY--S.13--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Y_X,Exports (National accounts),"constant prices, 2010 euro",SURS--0300230S--P6--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-L,LV_COMP_EMP,Compensation of employees,"current price, million EUR",SURS--0325220S--D1PAY--S.1--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L,LV_EMP_COMP,Compensation of employees,"current price, million EUR",SURS--0325220S--D1PAY--S.1--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
