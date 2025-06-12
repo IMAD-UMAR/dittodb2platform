@@ -48,7 +48,7 @@ saveRDS(timeseries, "data/available_timeseries.rds")
 
 # get new timeseries
 timeseries_new <- timeseries |> 
-        anti_join(timeseries_old)
+        anti_join(timeseries_old, by = "Dataset.code") 
 
 ## capture mocks for new timeseries only
 ################################################################################
