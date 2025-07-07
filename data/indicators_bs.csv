@@ -2,3 +2,7 @@ Block,Variable code,Indicator,Unit,Dataset code,Prefix,Table,Breakdown,Investor,
 Export",Cohesion region,Transaction,Employment type,Cons/Ncons,Sector,Stock flow,Asset liability,Financial instrument,Age group,Sex,Consumer product,Measure,Unit2,Item,Investment,Seasonal adjustment,Indices,Activity,Statistical region,Exchange rate,NA_item,Flow,Indicators,Product,Reporter,Time frequency
 8,WEALTH_NPISH,Financial net worth - Cons - Net - NPISH,number,BS--F2_Q2S--1--0--1--26--15--Q,BS,F2_Q2S,,,,,,,,,,1,0,1,26,,,,,,15,,,,,,,,,,,,Q
 8,WEALTH_HH,Financial net worth - Cons - Net - Households,number,BS--F2_Q2S--1--0--1--26--14--Q,BS,F2_Q2S,,,,,,,,,,1,0,1,26,,,,,,14,,,,,,,,,,,,Q
+,,Exports of goods (Balance of payments),,BS--i_32_6ms--4--M,BS,i_32_6ms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Exports of services (Balance of payments),,BS--i_32_6ms--7--M,BS,i_32_6ms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Imports of goods  (Balance of payments)""",,BS--i_32_6ms--5--M,BS,i_32_6ms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Imports of services  (Balance of payments),,BS--i_32_6ms--13--M,BS,i_32_6ms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
