@@ -179,6 +179,7 @@ P,P_PPI,Producer price index,rebased to 2010,SURS--0457101S--B_TO_E--11--M,SURS,
 L,LV_COMP_GOV,Compensation of employees: public sector,"current price, million euro",SURS--0325220S--D1PAY--S.13--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Y_X,Exports (National accounts),"constant prices, 2010 euro",SURS--0300230S--P6--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 L,LV_EMP_COMP,Compensation of employees,"current price, million EUR",SURS--0325220S--D1PAY--S.1--Q,SURS,0325220S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Y,Y_C,Final consumption expenditure HH+NPISH (National accounts),"current prices, million euro",SURS--0300230S--P31_S1M--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Changes in inventories,,SURS--0300230S--P52--GO4--N--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,PPI,,SURS--0457101S--B_TO_E--29--M,SURS,0457101S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Indices of services and trade production: J Information and communication,,SURS--2080006S--2--J--M,SURS,2080006S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -210,3 +211,5 @@ L,LV_EMP_COMP,Compensation of employees,"current price, million EUR",SURS--03252
 ,,Construction confidence: assessment of building activity,,SURS--1912002S--2--2--M,SURS,1912002S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Retail trade confidence,,SURS--2007402S--2--13--M,SURS,2007402S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Retail trade confidence,,SURS--1700102S--2--5--M,SURS,1700102S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
