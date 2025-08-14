@@ -15,7 +15,7 @@ source("R/helper_functions.R")
 con <- make_connection() 
 ## setup time series df
 ################################################################################
-# get current list of timeseries
+# get current list of timeseries 
 timeseries_old <- readRDS("data/available_timeseries.rds")
 
 # get list of timeseries from files which may have been updated
