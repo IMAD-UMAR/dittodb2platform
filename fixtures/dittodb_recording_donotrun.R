@@ -50,8 +50,8 @@ timeseries <- relocate(timeseries, c("id", "name_long_si"), .after = "Indicator"
 saveRDS(timeseries, "data/available_timeseries.rds")
 
 # get new timeseries
-timeseries_new <- timeseries |> 
-        anti_join(timeseries_old, by = "Dataset.code") 
+timeseries_new <- timeseries #|> 
+        #anti_join(timeseries_old, by = "Dataset.code") 
 
 ## capture mocks for new timeseries only
 ################################################################################
