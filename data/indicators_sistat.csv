@@ -131,8 +131,10 @@ Export",Cohesion region,Transaction,Employment type,Cons/Ncons,Sector,Stock flow
 8,KV_INVENTORY,Changes in inventories,"current prices, million euro",SURS--0300230S--P52--V--Y--Q,SURS,0300230S,,,,,,,P52,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
 8,INTEREST_M,"Base interest rate, Slovenia, monthly",percentage,SURS--H287S--1--M,SURS,H287S,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,M
 8,INTEREST_A,"Base interest rate, Slovenia, annual",percentage,SURS--H287S--2--M,SURS,H287S,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,M
-9,X_SERV,Exports of services,"Constant prices, reference year 2010 (mio EUR)",SURS--0300230S--P62--V--Y--Q,SURS,0300230S,,,,,,,P62,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
-9,X_GDS,Exports of goods,"Constant prices, reference year 2010 (mio EUR)",SURS--0300230S--P61--V--Y--Q,SURS,0300230S,,,,,,,P61,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
+9,XV_SERV,Exports of services,"current prices, million euro",SURS--0300230S--P62--V--Y--Q,SURS,0300230S,,,,,,,P62,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
+9,XV_GDS,Exports of goods,"current prices, million euro",SURS--0300230S--P61--V--Y--Q,SURS,0300230S,,,,,,,P61,,,,,,,,,,V,,,,Y,,,,,,,,,,Q
+,X_SERV,Exports of services,"current prices, million euro",SURS--0300230S--P62--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,X_GDS,Exports of goods,"current prices, million euro",SURS--0300230S--P61--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 G,GV_D21REC,General government: taxes on products,"current prices, million euro",SURS--0314984S--D21_C--Q,SURS,0314984S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 G,GV_D29REC,General government: taxes on production,"current prices, million euro",SURS--0314984S--D29_C--Q,SURS,0314984S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Y,YV_C,Final consumption expenditure HH+NPISH (National accounts),"current prices, million euro",SURS--0300230S--P31_S1M--V--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -211,5 +213,4 @@ Y,Y_C,Final consumption expenditure HH+NPISH (National accounts),"current prices
 ,,Construction confidence: assessment of building activity,,SURS--1912002S--2--2--M,SURS,1912002S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Retail trade confidence,,SURS--2007402S--2--13--M,SURS,2007402S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Retail trade confidence,,SURS--1700102S--2--5--M,SURS,1700102S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-
+,Y_FCE,Final consumption expenditure,"Constant prices, 2010 million EUR",SURS--0300230S--P3--L--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
