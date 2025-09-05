@@ -213,4 +213,4 @@ Y,Y_C,Final consumption expenditure HH+NPISH (National accounts),"current prices
 ,,Construction confidence: assessment of building activity,,SURS--1912002S--2--2--M,SURS,1912002S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Retail trade confidence,,SURS--2007402S--2--13--M,SURS,2007402S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,Retail trade confidence,,SURS--1700102S--2--5--M,SURS,1700102S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,Y_FCE,Final consumption expenditure,"Constant prices, 2010 million EUR",SURS--0300230S--P3--L--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Y_FCE,Final consumption expenditure,"Constant prices, 2010 million EUR",SURS--0300230S--P3--L--Y--Q,SURS,0300230S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
