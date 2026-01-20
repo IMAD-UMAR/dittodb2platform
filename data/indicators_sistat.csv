@@ -223,3 +223,6 @@ Y,Y_C,Final consumption expenditure HH+NPISH (National accounts),"current prices
 ,LF_WAP_A,"Working age population, annual",thousands person,SURS--0762101S--0--1000--0--A,SURS,0762101S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Y_GDP_A,"Real GDP, annual",constant prices 2010 EUR,SURS--0301935S--B1GQ--L--A,SURS,0301935S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,Y_GFCF_A,"Gross fixed capital formation, annual",constant prices 2010 EUR,SURS--0301935S--P51G--L--A,SURS,0301935S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,K_CFC_A,"Consumption of fixed capital, annual",,SURS--0325202S--P51C_W0_XDC__Z_V--S1_W0--A,SURS,0325202S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,GV_EXP,Government total expenditure,,SURS--0314984S--OTE--Q,SURS,0314984S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,GV_REV,Government total revenue,,SURS--0314984S--OTR--Q,SURS,0314984S,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
