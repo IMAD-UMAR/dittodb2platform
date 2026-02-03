@@ -40,6 +40,12 @@ timeseries <- bind_rows(
 # get series ids and names from the database
 ids <- sql_get_series_id_from_series_code(
         timeseries$Dataset.code, con, schema = "platform")
+# xx <- timeseries |> # find missing series
+#         rowwise() |> 
+#         mutate(ids = sql_get_series_id_from_series_code(
+#                 Dataset.code, con, schema = "platform")) |> 
+#         filter(is.na(ids))
+
 name_long_si <- sql_get_series_name_from_series(con, ids$id, schema = "platform")
 
 timeseries$id <- ids$id
